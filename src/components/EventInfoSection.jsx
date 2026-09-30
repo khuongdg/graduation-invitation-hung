@@ -117,10 +117,10 @@ export default function EventInfoSection({ onOpenRsvp }) {
 
           <button
             onClick={onOpenRsvp}
-            className="px-10 py-4 rounded-full bg-gradient-to-r from-gold-500 via-yellow-400 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-navy-950 font-bold text-base shadow-xl shadow-gold-500/30 hover:shadow-gold-500/50 transition-all transform hover:-translate-y-1 inline-flex items-center gap-2"
+            className="w-full sm:w-auto px-4 xs:px-6 sm:px-10 py-3.5 sm:py-4 rounded-full bg-gradient-to-r from-gold-500 via-yellow-400 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-navy-950 font-bold text-xs xs:text-sm sm:text-base shadow-xl shadow-gold-500/30 hover:shadow-gold-500/50 transition-all transform hover:-translate-y-1 inline-flex items-center justify-center gap-2 whitespace-nowrap"
           >
-            <CheckCircle className="w-5 h-5" />
-            <span>Điền Thông Tin Xác Nhận</span>
+            <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 shrink-0" />
+            <span className="whitespace-nowrap">Điền Thông Tin Xác Nhận</span>
           </button>
         </div>
       </div>

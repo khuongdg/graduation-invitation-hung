@@ -18,7 +18,7 @@ export default function Home() {
   const [isRsvpOpen, setIsRsvpOpen] = useState(false);
   const [isWishOpen, setIsWishOpen] = useState(false);
   const [isGiftOpen, setIsGiftOpen] = useState(false);
-  const [wishes, setWishes] = useState(eventConfig.sampleWishes);
+  const [wishes, setWishes] = useState([]);
 
   const handleWishAdded = (newWish) => {
     setWishes((prev) => [newWish, ...prev]);

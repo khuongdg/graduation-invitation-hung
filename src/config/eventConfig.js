@@ -11,14 +11,14 @@ export const eventConfig = {
     degree: "Cử nhân", // Bạn có thể chỉnh lại ngành nghề exact
     major: "Kỹ thuật phần mềm", // Ngành học
     university: "Trường Đại Học Tôn Đức Thắng", // Tên trường (bạn có thể cập nhật sau)
-    avatar: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1200&auto=format&fit=crop", // Hình đại diện / avatar tốt nghiệp
+    avatar: "/assets/avatar.jpg", // Hình đại diện / avatar tốt nghiệp
     heroSubtitle: "Trân trọng kính mời bạn đến tham dự Lễ Tốt Nghiệp của mình!",
   },
 
   // Thời gian & Địa điểm lễ tốt nghiệp
   event: {
-    dateISO: "2026-10-15T08:00:00+07:00", // Ngày giờ diễn ra (Dùng cho đếm ngược Countdown)
-    displayDate: "Thứ Năm, Ngày 15 Tháng 10 Năm 2026",
+    dateISO: "2026-10-17T08:00:00+07:00", // Ngày giờ diễn ra (Dùng cho đếm ngược Countdown)
+    displayDate: "Thứ Bảy, Ngày 17 Tháng 10 Năm 2026",
     displayTime: "08:00 AM - 11:30 AM",
     venueName: "Hall A - Trường Đại học Tôn Đức Thắng",
     address: "Số 19 đường Nguyễn Hữu Thọ, Phường Tân Hưng, Tp. Hồ Chí Minh",
@@ -34,7 +34,7 @@ export const eventConfig = {
     phone: "0939 186 391",
     zaloUrl: "https://zalo.me",
     facebookUrl: "https://www.facebook.com/share/1HgAir3KA2/?mibextid=wwXIfr",
-    email: "hung.huynhthinh@example.com",
+    email: "callmehunghuynh@gmail.com",
   },
 
   // Thông tin nhận quà mừng tốt nghiệp / QR chuyển khoản (Nếu khách muốn gửi quà mừng xa)
@@ -72,28 +72,6 @@ export const eventConfig = {
     ]
   },
 
-  // Danh sách lời chúc mặc định (Fallback khi chưa kết nối Google Sheet Script)
-  sampleWishes: [
-    {
-      id: 1,
-      name: "Minh Anh",
-      attendance: "Sẽ tham dự",
-      wish: "Chúc mừng Thịnh Hưng đã hoàn thành xuất sắc chặng đường tốt nghiệp! Chúc Hưng gặt hái thật nhiều thành công rực rỡ phía trước!",
-      date: "19/09/2026"
-    },
-    {
-      id: 2,
-      name: "Gia Đình & Người Thân",
-      attendance: "Sẽ tham dự",
-      wish: "Tự hào về Hưng rất nhiều! Mong cháu luôn vững bước, tràn đầy nhiệt huyết và tỏa sáng trên con đường sự nghiệp.",
-      date: "19/09/2026"
-    },
-    {
-      id: 3,
-      name: "Hoàng Nam (Nhóm Đồ Án)",
-      attendance: "Sẽ tham dự",
-      wish: "Chúc mừng tân kỹ sư/cử nhân Huỳnh Thịnh Hưng! Chúc người đồng đội luôn đỉnh cao và vươn xa hơn nữa nhé!",
-      date: "18/09/2026"
-    }
-  ]
+  // Danh sách lời chúc mặc định (đã bỏ mock data, mặc định rỗng)
+  sampleWishes: []
 };
