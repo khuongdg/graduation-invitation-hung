@@ -17,9 +17,9 @@ export const eventConfig = {
 
   // Thời gian & Địa điểm lễ tốt nghiệp
   event: {
-    dateISO: "2026-10-17T08:00:00+07:00", // Ngày giờ diễn ra (Dùng cho đếm ngược Countdown)
+    dateISO: "2026-10-17T10:00:00+07:00", // Ngày giờ diễn ra (Dùng cho đếm ngược Countdown)
     displayDate: "Thứ Bảy, Ngày 17 Tháng 10 Năm 2026",
-    displayTime: "08:00 AM - 11:30 AM",
+    displayTime: "10:00 AM - 11:30 AM",
     venueName: "Hall A - Trường Đại học Tôn Đức Thắng",
     address: "Số 19 đường Nguyễn Hữu Thọ, Phường Tân Hưng, Tp. Hồ Chí Minh",
     googleMapUrl: "https://maps.app.goo.gl/S1fV1hAHig7Q1sX78", // Link Google Maps
